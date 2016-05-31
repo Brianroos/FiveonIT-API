@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
-    
-    # RewriteRule ^$ index.php
+    RewriteRule ^accounts/?$ index.php?id=1
+    RewriteRule ^hotel/?$  index.php?id=2
 </IfModule>
