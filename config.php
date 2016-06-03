@@ -1,4 +1,4 @@
 <?php
-    $conn = mysql_connect('sql.hosted.hr.nl', '##', '##');
+    $conn = mysql_connect('##', '##', '##');
     mysql_select_db('##', $conn);
 ?>
